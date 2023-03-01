@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T08:00:36.007Z" agent="5.0 (Windows)" version="20.8.23" etag="Zk0efCA7FSeANbREWppn" type="github"><diagram name="第 1 页" id="HSklJt_gpMSyyRtufJjj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-01T08:06:14.040Z" agent="5.0 (Windows)" etag="yX24LWPtRLDudBM01bmr" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="HSklJt_gpMSyyRtufJjj">
+    <mxGraphModel dx="1008" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_XSl3RF1zRQACbr3gapr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_XSl3RF1zRQACbr3gapr-2" target="_XSl3RF1zRQACbr3gapr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-10" value="S2按下" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XSl3RF1zRQACbr3gapr-9">
+          <mxGeometry x="0.2483" y="-1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-2" value="INIT" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_XSl3RF1zRQACbr3gapr-3" target="_XSl3RF1zRQACbr3gapr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-12" value="密码设置成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XSl3RF1zRQACbr3gapr-11">
+          <mxGeometry x="-0.269" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-3" value="SET" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XSl3RF1zRQACbr3gapr-4" target="_XSl3RF1zRQACbr3gapr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-4" value="LOCK" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XSl3RF1zRQACbr3gapr-5" target="_XSl3RF1zRQACbr3gapr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-21" value="S2按下" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XSl3RF1zRQACbr3gapr-20">
+          <mxGeometry x="-0.6001" y="1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-5" value="UNLOCK" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-6" value="DEAD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XSl3RF1zRQACbr3gapr-7" target="_XSl3RF1zRQACbr3gapr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-17" value="&lt;div&gt;密码匹配失败&lt;/div&gt;&lt;div&gt;尝试次数少于3&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XSl3RF1zRQACbr3gapr-16">
+          <mxGeometry x="0.356" y="2" relative="1" as="geometry">
+            <mxPoint x="36" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XSl3RF1zRQACbr3gapr-7" target="_XSl3RF1zRQACbr3gapr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-19" value="密码匹配成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XSl3RF1zRQACbr3gapr-18">
+          <mxGeometry x="-0.1439" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XSl3RF1zRQACbr3gapr-7" target="_XSl3RF1zRQACbr3gapr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-23" value="&lt;div&gt;密码匹配失败&lt;/div&gt;&lt;div&gt;尝试次数达到3次&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XSl3RF1zRQACbr3gapr-22">
+          <mxGeometry x="0.2026" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-7" value="VERIFY" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_XSl3RF1zRQACbr3gapr-14" value="S3按下" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
